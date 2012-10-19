@@ -362,7 +362,17 @@ if ("ontouchstart" in document.documentElement) {
 -->
 <script src="js/impress.js"></script>
 <script>impress().init();</script>
-
+<script>
+    var KeyNoteAdapter = {
+        api: impress(),
+        next: function(){
+            KeyNoteAdapter.next();
+        },
+        prev: function(){
+            KeyNoteAdapter.prev();
+        }
+    }
+</script>
 <!--
     
     The `impress()` function also gives you access to the API that controls the presentation.
