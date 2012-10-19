@@ -366,10 +366,10 @@ if ("ontouchstart" in document.documentElement) {
     var KeyNoteAdapter = {
         api: impress(),
         next: function(){
-            KeyNoteAdapter.next();
+            KeyNoteAdapter.api.next();
         },
         prev: function(){
-            KeyNoteAdapter.prev();
+            KeyNoteAdapter.api.prev();
         }
     }
 </script>
