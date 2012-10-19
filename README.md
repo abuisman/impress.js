@@ -1,9 +1,5 @@
-Second test!!!!
-============
-testing it
-============
-impress.js
-============
+The one and only test.
+===========
 
 It's a presentation framework based on the power of CSS3 transforms and 
 transitions in modern browsers and inspired by the idea behind prezi.com.
